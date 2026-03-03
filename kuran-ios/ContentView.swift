@@ -1,0 +1,20 @@
+//
+//  ContentView.swift
+//  kuran-ios
+//
+//  Created by Asim Seferli on 03.03.26.
+//
+
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundStyle(.tint)
+            Text("Hello, world!")
+        }
+        .padding()
+    }
+}

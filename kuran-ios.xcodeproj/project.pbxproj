@@ -10,9 +10,33 @@
 		7C252FA02F56A69B00931999 /* kuran-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kuran-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		7C252FC42F56A8F700931999 /* Exceptions for "kuran-ios" folder in "kuran-ios" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Core/Storage /KeychainServiceProtocol.swift",
+			);
+			target = 7C252F9F2F56A69B00931999 /* kuran-ios */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		7C252FC52F56A8F700931999 /* Exceptions for "kuran-ios" folder in "Copy Bundle Resources" phase from "kuran-ios" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 7C252F9E2F56A69B00931999 /* Resources */;
+			membershipExceptions = (
+				"Core/Storage /KeychainServiceProtocol.swift",
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		7C252FA22F56A69B00931999 /* kuran-ios */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7C252FC42F56A8F700931999 /* Exceptions for "kuran-ios" folder in "kuran-ios" target */,
+				7C252FC52F56A8F700931999 /* Exceptions for "kuran-ios" folder in "Copy Bundle Resources" phase from "kuran-ios" target */,
+			);
 			path = "kuran-ios";
 			sourceTree = "<group>";
 		};
